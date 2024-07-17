@@ -29,3 +29,8 @@ def initialize_cnn():
 
 I trained in 10 epochs with batch size of 32. Test accuracy was about 72%.
 
+# Testing different parameters
+
+Iterating over different pooling type, different widths of the convolution window and training for 30 epochs with a snapshot after each 10:
+![image](https://github.com/user-attachments/assets/4b7f4de8-363c-4f3e-b43b-557ade7e2268)
+
