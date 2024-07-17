@@ -1,7 +1,7 @@
 # basic_image_classification
 I want to practice making a neural net so let's try to do image classification
 
-#First working model
+# First working model
 
 I got a model working
 
