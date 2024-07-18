@@ -57,4 +57,6 @@ It looks like smaller windows do a better job, so let's stick with that.
 
 After adding batch normalization and dropout, the training was much slower for a small improvement. We were able to get as high as 80% test accuracy, finishing at 76%.
 
+# Conclusion
 
+I don't have a ton of insight in terms of what works, but broadly it seems like a large model with dropout and batch normalization and a long time to train was by far the best. Data augmentation also gave me a boost. I ended up with a model that achieves 83% accuracy on the test set, which is not bad. Although I had an intermediate intuition that 2x2 windows would work better for the convolution, it seems like it was ultimately 3x3 that works the best. 
