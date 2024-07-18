@@ -53,4 +53,6 @@ Grouping by conv_width:
 
 It looks like smaller windows do a better job, so let's stick with that.
 
-After adding batch normalization and dropout, the training was much slower for a small improvement. Train data had 84% accuracy, test of 74%.
+# Adding batch normalization and dropout
+
+After adding batch normalization and dropout, the training was much slower for a small improvement. We were able to get as high as 80% test accuracy
