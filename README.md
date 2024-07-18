@@ -1,5 +1,5 @@
 # basic_image_classification
-I want to practice making a neural net so let's try to do image classification
+I want to practice making a neural net so let's try to do image classification. I got the data from https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf and used ChatGPT to walk me through a lot of the syntax.
 
 # First working model
 
@@ -55,4 +55,6 @@ It looks like smaller windows do a better job, so let's stick with that.
 
 # Adding batch normalization and dropout
 
-After adding batch normalization and dropout, the training was much slower for a small improvement. We were able to get as high as 80% test accuracy
+After adding batch normalization and dropout, the training was much slower for a small improvement. We were able to get as high as 80% test accuracy, finishing at 76%.
+
+
