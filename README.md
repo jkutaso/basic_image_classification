@@ -52,3 +52,7 @@ Grouping by conv_width:
 ![image](https://github.com/user-attachments/assets/b0bad5d3-53c1-4dab-b2a7-96cc6101a95b)
 
 It looks like smaller windows do a better job, so let's stick with that.
+
+# Adding batch normalization and dropout
+
+After adding batch normalization and dropout, the training was much slower for a small improvement. We were able to get as high as 80% test accuracy
